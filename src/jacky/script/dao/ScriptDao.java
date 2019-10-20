@@ -74,7 +74,7 @@ public class ScriptDao {
 			words[randindex] = "______";
 
 			Arrays.asList(words).forEach(str -> sb.append(str + " "));
-			sb.append("<br>");
+			sb.append("<br><br>");
 			//System.out.println();
 			//System.out.println(s);
 		}

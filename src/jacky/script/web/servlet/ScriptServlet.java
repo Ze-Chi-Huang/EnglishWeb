@@ -26,6 +26,8 @@ public class ScriptServlet extends HttpServlet {
 		request.getSession().removeAttribute("words");
 		request.getSession().removeAttribute("title");
 		
+		
+		
 		String title = request.getParameter("course");
 		request.getSession().setAttribute("title",title);
 		
