@@ -74,7 +74,7 @@ public class ScriptDao {
 			words[randindex] = "______";
 
 			Arrays.asList(words).forEach(str -> sb.append(str + " "));
-			sb.append("<br>");
+			sb.append("<br><br>");
 			//System.out.println();
 			//System.out.println(s);
 		}
@@ -86,7 +86,7 @@ public class ScriptDao {
 	public String getScript(String name) {
 		
 		try {
-			System.out.println(name);
+			//System.out.println(name);
 			BufferedReader br = new BufferedReader(new FileReader("C:\\workspace\\eclipseWeb\\EnglishWeb\\WebContent\\script\\" + name + ".txt"));
 			
 			StringBuilder sb = new StringBuilder();

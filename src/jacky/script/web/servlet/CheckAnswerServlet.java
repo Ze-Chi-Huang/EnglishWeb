@@ -29,9 +29,10 @@ public class CheckAnswerServlet extends HttpServlet {
 		
 		//System.out.println(words);
 		for(int i=0;i<words.size();i++) {
-			System.out.println(wordsinput[i] + " " + words.get(i));
-			if(!wordsinput[i].replace(".", "").replace("?", "").replace("!", "").equals(words.get(i))){
-				System.out.println("enter!");
+			//System.out.println(wordsinput[i] + " " + words.get(i));
+			if(!wordsinput[i].replace(".", "").replace("?", "").replace("!", "")
+					.equals(words.get(i).replace(".", "").replace("?", "").replace("!", ""))){
+				//System.out.println("enter!");
 				String word = words.get(i);
 				String before = "<input type='text' name='words' size='5' value = '"
 						+ word

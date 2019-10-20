@@ -7,32 +7,48 @@
 <head>
 <meta charset="BIG5">
 <title>Insert title here</title>
+<style>
+	input {
+		style :font-family:calibri;
+		background-color : #C7EDCC;
+		text-align:center;
+	}
+</style>
 </head>
-<body>
+<body style="font-family:calibri;background-color:#C7EDCC">
 	<% request.setAttribute("course", request.getParameter("course")); %>
-
-	<a href="/EnglishWeb/ScriptServlet?course=${course }">點我獲取文檔</a> ${course }<br>
-	<audio src="/EnglishWeb/mp3/${course }.mp3" controls="controls"></audio>
-	<br>
 	
-	<div id = "myscript">
+	<div style="margin:0 auto;width:70%;text-align:center; font-family:微軟正黑體">
+		<h1>您選擇的單元為 : ${course }，</h1>
+		<h1><a href="/EnglishWeb/ScriptServlet?course=${course }">點我獲取文檔</a></h1> 
+	</div>
+	
+	<div style="margin:0 auto;width:70%;text-align:center; font-family:微軟正黑體">
+		<audio src="/EnglishWeb/mp3/${course }.mp3" controls="controls"></audio>
+	</div><br>
+	
+	
+	
+	<div id = "myscript" style="margin:0 auto;width:50%;">
 	
 	<form action="/EnglishWeb/CheckAnswerServlet" method="post">
-	
-	
+
 	${script}
+	<br>
+	</div>
 	
-	<input type="submit" value="對答案"/>
+	<div id = "myscript" style="margin:0 auto;width:50%;text-align:center;">
+		<input type="submit" value="對答案" 
+		style="width:30%;height:40px; border-color:red; font-family:微軟正黑體 ;" />
+	</div>
 	</form>
 	
-	</div>
 	<hr>
-
 	
-	<input type="button" onclick="show()" value = "點我獲取答案" /> <br>
-	<div id = "showScript"></div>
+	<div style="margin:0 auto; width:70%; text-align:center; font-family:微軟正黑體">
+		<h1><a href="/EnglishWeb/ChooseCourse.jsp">回上頁選擇課程</a></h1>
+	</div>
 	
-	<a href="/EnglishWeb/ChooseCourse.jsp">回上頁選擇課程</a>
 
 	
 </body>
