@@ -1,0 +1,16 @@
+Secretary: Hello, Ultimate Computers. May I help you?
+Caller: Yes, this is Jack Kordell from Hunter's Office Supplies. May I speak to Elaine Strong, please?
+Secretary: I'm sorry, but she's not in right now.
+Caller: Okay, do you know when she'll be back?
+Secretary: Uh, yes, she should be here later on this afternoon maybe about 4:30. May I take a message?
+Caller: Yes. Ms. Strong sent me a??brochure? detailing??your newest line of laptop computers with a description of other software products, but there wasn't any information about after-sales service.
+Secretary: Oh, I'm sorry. Would you like me to fax that to you?
+Caller: Yes, but our fax is being repaired at the moment, and it won't be working until around 2:30. Hum . . . could you try sending that information around 3:30? That should give me time to look over the material before I call Ms. Strong, say, around 5:00.
+Secretary: Sure. Could I have your name, telephone number, and fax number, please?
+Caller: Yes. Jack Kordell and the phone number is 560-1287. And the fax number is 560-1288.
+Secretary: Okay. Jack Kordell. Is your name spelled C-o-r-d-e-l?
+Caller: No. It's Kordell with a "K" and two "l's." K-o-r-d-e-l-l."
+Secretary: All right, Mr. Kordell. And your phone number is 560-1287, and the fax number is 560-1288. Is that correct?
+Caller: Yes it is.
+Secretary: All right. I'll be sure to send you the fax this afternoon.
+Caller: Okay, bye.
