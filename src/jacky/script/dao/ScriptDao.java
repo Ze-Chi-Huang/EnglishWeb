@@ -20,7 +20,7 @@ public class ScriptDao {
 	//獲得標題
 	public String getTitle() {
 		try {
-			BufferedReader br = new BufferedReader(new FileReader("C:\\workspace\\eclipseWeb\\EnglishWeb\\WebContent\\myTitle.txt"));
+			BufferedReader br = new BufferedReader(new FileReader("C:\\workspace\\eclipseWeb\\EnglishWeb\\WebContent\\myTitle2.txt"));
 			
 			StringBuilder sb = new StringBuilder();
 			String line = "";
@@ -68,7 +68,7 @@ public class ScriptDao {
 			
 			String[] words = s.split(" ");
 			
-			//每一行挑一個
+			//每一行挑一個，不要挑到人名
 			int randindex = rand.nextInt(words.length-1)+1;
 			wordsAnswers.add(words[randindex]);
 			words[randindex] = "______";
@@ -86,6 +86,7 @@ public class ScriptDao {
 	public String getScript(String name) {
 		
 		try {
+			System.out.println(name);
 			BufferedReader br = new BufferedReader(new FileReader("C:\\workspace\\eclipseWeb\\EnglishWeb\\WebContent\\script\\" + name + ".txt"));
 			
 			StringBuilder sb = new StringBuilder();
