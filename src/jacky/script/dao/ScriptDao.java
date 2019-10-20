@@ -86,7 +86,7 @@ public class ScriptDao {
 	public String getScript(String name) {
 		
 		try {
-			System.out.println(name);
+			//System.out.println(name);
 			BufferedReader br = new BufferedReader(new FileReader("C:\\workspace\\eclipseWeb\\EnglishWeb\\WebContent\\script\\" + name + ".txt"));
 			
 			StringBuilder sb = new StringBuilder();
